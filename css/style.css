@@ -6,3 +6,25 @@
     --lighter-secondary: #b1e4f2;
     --light: #808080;
 }
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+}
+
+/* header */
+header{
+    background-color:var(--priamry);
+    background-image: url(../img/pattern.png);
+    background-size: 300px;
+}
+
+
+.logo{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
