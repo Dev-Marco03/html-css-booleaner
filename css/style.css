@@ -1,7 +1,7 @@
 :root{
     --black: #000;
     --white: #fff;
-    --priamry: #4ea0ff;
+    --primary: #4ea0ff;
     --secondary: #1fa9e5;
     --lighter-secondary: #b1e4f2;
     --light: #808080;
@@ -18,13 +18,13 @@ body{
 
 /* header */
 header{
-    background-color:var(--priamry);
+    background-color:var(--primary);
     background-image: url(../img/pattern.png);
     background-size: 300px;
 }
 
 
 .logo{
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
