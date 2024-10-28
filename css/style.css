@@ -38,7 +38,7 @@ main{
 }
 
 .credits{
-    font-style: var(--light);
+    color: var(--light);
     margin: 0;
 }
 
@@ -48,7 +48,8 @@ main{
 }
 
 #author{
-    font-style: var(--lighter-secondary);
+    color: var(--lighter-secondary);
+    font-weight: 600;
 }
 
 .date{
@@ -57,4 +58,8 @@ main{
 
 .tim{
     margin: 0;
+}
+
+.highlight{
+    background-color: #FFFF00;
 }
