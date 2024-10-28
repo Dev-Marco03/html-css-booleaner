@@ -2,22 +2,17 @@
     --black: #000;
     --white: #fff;
     --primary: #4ea0ff;
-    --secondary: #1fa9e5;
-    --lighter-secondary: #b1e4f2;
+    --secondary: #20A9E5;
+    --lighter-secondary: #20A9E5;
     --light: #808080;
-}
-
-.container{
-    width: 85%;
-    margin: auto;
 }
 
 body{
     margin: 0;
 }
 
-/* header */
-header{
+/* #region header */
+#app_header{
     background-color:var(--primary);
     background-image: url(../img/pattern.png);
     background-size: 300px;
@@ -27,4 +22,34 @@ header{
 .logo{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-left: 105px;
+    width: 200px;
+}
+/* #endregion */
+
+/* #region main */
+main{
+    width: 85%;
+    margin: auto;
+}
+
+.article_title{
+    font-size: 3rem;
+}
+
+.credits{
+    font-style: var(--light);
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+}
+
+#author{
+    font-style: var(--lighter-secondary);
+}
+
+.tim{
+    margin: 0;
 }
