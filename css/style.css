@@ -3,7 +3,7 @@
     --white: #fff;
     --primary: #4ea0ff;
     --secondary: #20A9E5;
-    --lighter-secondary: #20A9E5;
+    --lighter-secondary: #B1E5F2;
     --light: #808080;
 }
 
@@ -48,7 +48,7 @@ main{
 }
 
 #author{
-    color: var(--lighter-secondary);
+    color: var(--secondary);
     font-weight: 600;
 }
 
@@ -62,4 +62,24 @@ main{
 
 .highlight{
     background-color: #FFFF00;
+}
+
+.table{
+    margin: 0%;
+    width: 100%;
+    text-align: start;
+}
+
+.table-head{
+    background-color: var(--secondary);
+    margin: 0;
+    font-weight: 50;
+}
+
+.top-table{
+    width: 60%;
+}
+
+.row{
+    background-color: var(--lighter-secondary);
 }
