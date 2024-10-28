@@ -73,8 +73,8 @@ main{
 
 .table-head{
     background-color: var(--secondary);
-    margin: 0;
     font-weight: 50;
+    text-align: left;
 }
 
 .top-table{
