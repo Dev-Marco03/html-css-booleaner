@@ -44,10 +44,15 @@ main{
 
 .title{
     margin: 0;
+    padding-bottom: 0;
 }
 
 #author{
     font-style: var(--lighter-secondary);
+}
+
+.date{
+    margin: 0;
 }
 
 .tim{
