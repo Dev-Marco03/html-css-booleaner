@@ -84,3 +84,21 @@ main{
 .row{
     background-color: var(--lighter-secondary);
 }
+
+.articles{
+    color: var(--light);
+    font-weight: 600;
+}
+
+.bottom-images{
+    font-weight: 600;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    display: block;
+    color: var(--white);
+}
+
+.article-images{
+    background: rgba(0, 0, 0, 0);
+}
